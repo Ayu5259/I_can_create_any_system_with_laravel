@@ -14,6 +14,10 @@
             </div>
         </div>
 
+        <div>
+            <a href="create.html" class="mb-4 inline-block px-4 py-2 rounded-lg bg-black text-white">Create Post</a>
+        </div>
+
         <ul id="postList" class="space-y-4"></ul>
     </div>
 </main>
