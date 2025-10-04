@@ -20,10 +20,24 @@
                     placeholder="Write something..."></textarea>
             </div>
 
+            <div>
+                <label for="image" class="block text-sm font-medium mb-2">Image (optional)</label>
+                <input type="file" id="image" name="image" accept="image/*"
+                    class="w-full rounded-lg border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black">
+            </div>
+
+
+            <div>
+                <label for="tags" class="block text-sm font-medium mb-2">Tags (optional)</label>
+                <input type="text" id="tags" name="tags"
+                    class="w-full rounded-lg border px-3 py-2 focus:outline-none focus:ring-2 focus:ring-black"
+                    placeholder="e.g. tech, life, travel">
+            </div>
+
             <div class="flex items-center justify-between gap-4">
                 <a href="index.html" class="px-4 py-2 rounded-lg border hover:bg-gray-100">Cancel</a>
                 <button type="submit" class="px-4 py-2 rounded-lg bg-black text-white">Publish</button>
-            </div> 
+            </div>
 
             <p id="error" class="hidden text-sm text-red-600">Please add a title and content.</p>
         </form>
